@@ -1,0 +1,128 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources 5 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1500
+>>
+stream
+BT
+/F1 18 Tf
+50 750 Td
+(Ramon Roca-Pinilla, PhD) Tj
+0 -30 Td
+/F1 12 Tf
+(Protein Engineering & Gene Therapy Specialist) Tj
+0 -40 Td
+(Email: ramon.roca@example.com) Tj
+0 -20 Td
+(Phone: +34 600 000 000) Tj
+0 -40 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -25 Td
+/F1 12 Tf
+(PhD in Biotechnology - Universitat Autonoma de Barcelona, 2018) Tj
+0 -20 Td
+(MSc in Biomedical Engineering - UPC BarcelonaTech, 2014) Tj
+0 -40 Td
+/F1 14 Tf
+(RESEARCH EXPERIENCE) Tj
+0 -25 Td
+/F1 12 Tf
+(Senior Research Scientist, Gene Therapy Institute (2020-Present)) Tj
+0 -15 Td
+(- Leading AAV vector optimization projects) Tj
+0 -15 Td
+(- Developed novel liver perfusion platform) Tj
+0 -15 Td
+(- Published 16+ peer-reviewed articles) Tj
+0 -30 Td
+(Postdoctoral Researcher, IBEC (2018-2020)) Tj
+0 -15 Td
+(- Specialized in functional inclusion bodies) Tj
+0 -15 Td
+(- Antimicrobial protein engineering) Tj
+0 -40 Td
+/F1 14 Tf
+(KEY PUBLICATIONS) Tj
+0 -25 Td
+/F1 12 Tf
+(1. Tailoring capsid-directed evolution technology for improved) Tj
+0 -15 Td
+(   AAV-mediated CAR-T generation. Molecular Therapy, 2024) Tj
+0 -20 Td
+(2. Harnessing whole human liver ex situ normothermic perfusion) Tj
+0 -15 Td
+(   for preclinical AAV vector evaluation. Nature Communications, 2024) Tj
+0 -20 Td
+(3. Functional Inclusion Bodies. Trends in Biotechnology, 2022) Tj
+0 -40 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -25 Td
+/F1 12 Tf
+(- Protein Engineering & Expression Systems) Tj
+0 -15 Td
+(- AAV Vector Development & Optimization) Tj
+0 -15 Td
+(- Gene Therapy Platform Development) Tj
+0 -15 Td
+(- Bioinformatics & Computational Biology) Tj
+0 -15 Td
+(- Ex Situ Organ Perfusion Techniques) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000226 00000 n 
+0000001780 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1877
+%%EOF

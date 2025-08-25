@@ -1,4 +1,31 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rrocap.github.io/Portfolio/sitemap-index.xml
+# Specific crawling preferences
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block common bot nuisances
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://rrocap.github.io/ai-peptide-portfolio/sitemap.xml
+
+# Additional directives
+Host: rrocap.github.io

@@ -1,0 +1,81 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="peptideGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d946ef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#facc15;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- AI Network Nodes Background -->
+  <circle cx="50" cy="50" r="4" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="150" cy="50" r="4" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="100" cy="30" r="4" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="50" cy="150" r="4" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="150" cy="150" r="4" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="100" cy="170" r="4" fill="#0ea5e9" opacity="0.3"/>
+  
+  <!-- Connecting lines -->
+  <path d="M50,50 L150,50 L100,30 Z" fill="none" stroke="#0ea5e9" stroke-width="0.5" opacity="0.2"/>
+  <path d="M50,150 L150,150 L100,170 Z" fill="none" stroke="#0ea5e9" stroke-width="0.5" opacity="0.2"/>
+  <path d="M50,50 L50,150" fill="none" stroke="#0ea5e9" stroke-width="0.5" opacity="0.2"/>
+  <path d="M150,50 L150,150" fill="none" stroke="#0ea5e9" stroke-width="0.5" opacity="0.2"/>
+  
+  <!-- Central Peptide Helix Structure -->
+  <g transform="translate(100, 100)">
+    <!-- First helix strand -->
+    <path d="M-30,-40 Q-20,-20 -30,0 T-30,40" 
+          fill="none" 
+          stroke="url(#peptideGradient)" 
+          stroke-width="4" 
+          stroke-linecap="round"
+          filter="url(#glow)"/>
+    
+    <!-- Second helix strand -->
+    <path d="M30,-40 Q20,-20 30,0 T30,40" 
+          fill="none" 
+          stroke="url(#peptideGradient)" 
+          stroke-width="4" 
+          stroke-linecap="round"
+          filter="url(#glow)"/>
+    
+    <!-- Connecting bonds -->
+    <line x1="-30" y1="-30" x2="30" y2="-30" stroke="#d946ef" stroke-width="2" opacity="0.6"/>
+    <line x1="-30" y1="-10" x2="30" y2="-10" stroke="#d946ef" stroke-width="2" opacity="0.6"/>
+    <line x1="-30" y1="10" x2="30" y2="10" stroke="#d946ef" stroke-width="2" opacity="0.6"/>
+    <line x1="-30" y1="30" x2="30" y2="30" stroke="#d946ef" stroke-width="2" opacity="0.6"/>
+    
+    <!-- Central AI Core -->
+    <circle cx="0" cy="0" r="15" fill="#facc15" opacity="0.8"/>
+    <circle cx="0" cy="0" r="10" fill="#fff" opacity="0.9"/>
+    <circle cx="0" cy="0" r="5" fill="#facc15"/>
+  </g>
+  
+  <!-- Orbiting particles -->
+  <circle cx="70" cy="100" r="3" fill="#0ea5e9" opacity="0.8">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 100"
+      to="360 100 100"
+      dur="10s"
+      repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="130" cy="100" r="3" fill="#d946ef" opacity="0.8">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 100"
+      to="-360 100 100"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </circle>
+</svg>

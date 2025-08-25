@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rrocap.github.io/Portfolio/sitemap-index.xml
